@@ -53,6 +53,7 @@ INSTALLED_APPS = [
 
     # Other
     'crispy_forms',
+    'crispy_bootstrap5',
 ]
 
 MIDDLEWARE = [
@@ -70,7 +71,9 @@ SITE_ID = 1
 
 ROOT_URLCONF = 'boutique_ado_v1.urls'
 
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = 'bootstrap5'
+
 
 TEMPLATES = [
     {
